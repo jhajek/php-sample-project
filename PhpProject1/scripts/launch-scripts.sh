@@ -25,3 +25,4 @@ sudo php composer.phar install
 rm -v *.tar.gz
 
 sudo mv *.php /var/www/html
+sudo mv ./vendor /var/www/html
