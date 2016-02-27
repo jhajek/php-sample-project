@@ -12,7 +12,7 @@
 <copy file = "./src/index.php" tofile = "./build/index.php" />
 <copy file = "./src/contact.php" tofile = "./build/contact.php" />
 <copy file = "./scripts/launch-scripts.sh" tofile = "./build/launch-scripts.sh" />
-<copy file = "./scripts/composer.phar" tofile = "./build/composer.phar" />
+<copy file = "./scripts/composer.json" tofile = "./build/composer.json" />
 </target>
 
 <target name = "dist" depends = "build">
