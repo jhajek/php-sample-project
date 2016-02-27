@@ -24,4 +24,4 @@ sudo php composer.phar install
 
 rm -v *.tar.gz
 
-
+sudo mv *.php /var/www/html
